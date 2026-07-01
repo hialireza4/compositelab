@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "compositelab"
+version = "0.1.0"
+description = "Composite laminate analysis tools (CLT + Hashin)"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+ "numpy>=1.23"
+]
+
+[project.optional-dependencies]
+dev = [
+ "pytest"
+]
